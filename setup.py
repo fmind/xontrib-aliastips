@@ -8,7 +8,7 @@ setuptools.setup(
     license="EUPL-1.2",
     author="Médéric Hurier",
     author_email="dev@fmind.me",
-    description="Suggest alias tips before a command is executed",
+    description="Suggest alias tips after a command is executed",
     long_description_content_type="text/markdown",
     long_description=open("README.md", "r").read(),
     url="https://git.fmind.me/fmind/xontrib-aliastips",
