@@ -4,7 +4,7 @@ import setuptools  # type: ignore
 
 setuptools.setup(
     name="xontrib-aliastips",
-    version="0.5.0",
+    version="0.5.1",
     license="EUPL-1.2",
     author="Médéric Hurier",
     author_email="dev@fmind.me",
@@ -24,7 +24,7 @@ setuptools.setup(
         "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
     ],
     extras_require={"dist": ["twine", "wheel", "setuptools"]},
-    python_requires=">=3.6",
+    python_requires=">=3.5",
     install_requires=["xonsh"],
     packages=["xontrib"],
     package_dir={"xontrib": "xontrib"},
