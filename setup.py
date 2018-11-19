@@ -5,7 +5,7 @@ import setuptools  # type: ignore
 setuptools.setup(
     name="xontrib-aliastips",
     version="0.5.1",
-    license="EUPL-1.2",
+    license="AGPL-3.0",
     author="Médéric Hurier",
     author_email="dev@fmind.me",
     description="Suggest alias tips after a command is executed",
